@@ -47,29 +47,19 @@ export const useCommandPaletteStore = defineStore('command-palette', () => {
       keywords: ['dark', 'theme', 'toggle', 'mode', 'light', 'system'],
     },
     {
-      name: 'Github repository',
-      href: 'https://github.com/CorentinTh/it-tools',
+      name: 'Running',
+      href: 'https://blog.5iwork.com/',
       category: 'External',
-      description: 'View the source code of it-tools on Github.',
-      keywords: ['github', 'repo', 'repository', 'source', 'code'],
-      icon: GithubIcon,
+      description: 'blog',
+      keywords: ['blog']
     },
     {
       name: 'Report a bug or an issue',
       description: 'Report a bug or an issue to help improve it-tools.',
-      href: 'https://github.com/CorentinTh/it-tools/issues/new/choose',
+      href: 'https://run.5iwork.com/',
       category: 'Actions',
-      keywords: ['report', 'issue', 'bug', 'problem', 'error'],
-      icon: BugIcon,
-    },
-    {
-      name: 'About',
-      description: 'Learn more about IT-Tools.',
-      to: '/about',
-      category: 'Pages',
-      keywords: ['about', 'learn', 'more', 'info', 'information'],
-      icon: InfoIcon,
-    },
+      keywords: ['running', 'run']
+    }
   ];
 
   const { searchResult } = useFuzzySearch({
