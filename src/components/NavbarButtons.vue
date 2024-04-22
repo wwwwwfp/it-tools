@@ -16,7 +16,7 @@ const { isDarkTheme } = toRefs(styleStore);
       rel="noopener noreferrer"
       :aria-label="$t('home.nav.blog')"
     >
-      Blog
+      <div>Blog</div>
     </c-button>
   </c-tooltip>
 
@@ -29,7 +29,7 @@ const { isDarkTheme } = toRefs(styleStore);
       target="_blank"
       :aria-label="$t('home.nav.running')"
     >
-    Run
+    <div>Run</div>
     </c-button>
   </c-tooltip>
 
