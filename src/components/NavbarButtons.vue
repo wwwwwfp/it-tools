@@ -14,13 +14,14 @@ const { isDarkTheme } = toRefs(styleStore);
       href="https://blog.5iwork.com"
       target="_blank"
       rel="noopener noreferrer"
-      :aria-label="$t('home.nav.githubRepository')"
+      :aria-label="$t('home.nav.blog')"
     >
-
+      Blog
+      <n-icon :component="Heart" />
     </c-button>
   </c-tooltip>
 
-  <c-tooltip :tooltip="$t('home.nav.twitter')" position="bottom">
+  <c-tooltip :tooltip="$t('home.nav.running')" position="bottom">
     <c-button
       circle
       variant="text"
@@ -29,7 +30,8 @@ const { isDarkTheme } = toRefs(styleStore);
       target="_blank"
       :aria-label="$t('home.nav.running')"
     >
-
+    Running
+      <n-icon :component="Heart" />
     </c-button>
   </c-tooltip>
 
