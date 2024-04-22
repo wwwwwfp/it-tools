@@ -17,7 +17,6 @@ const { isDarkTheme } = toRefs(styleStore);
       :aria-label="$t('home.nav.blog')"
     >
       Blog
-      <n-icon :component="Heart" />
     </c-button>
   </c-tooltip>
 
@@ -30,8 +29,7 @@ const { isDarkTheme } = toRefs(styleStore);
       target="_blank"
       :aria-label="$t('home.nav.running')"
     >
-    Running
-      <n-icon :component="Heart" />
+    Run
     </c-button>
   </c-tooltip>
 
